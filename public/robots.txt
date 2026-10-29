@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://wolfnex.dev/sitemap.xml
+Sitemap: https://wolfnextech.vercel.app/sitemap.xml
