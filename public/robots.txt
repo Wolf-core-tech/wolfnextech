@@ -1,0 +1,6 @@
+# WolfNex Technologies robots.txt
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://wolfnex.dev/sitemap.xml
