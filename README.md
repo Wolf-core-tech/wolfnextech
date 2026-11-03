@@ -1,8 +1,8 @@
-# WolfNex Technologies
+# WolfNex Technology
 
 Technology & Project Development Studio
 
-Official website for **WolfNex Technologies** providing Academic Projects, Documentation, PPT & Journal Papers, Website Development, UI/UX Design, App Development, and Drone Softwares & Components.
+Official website for **WolfNex Technology** providing Academic Projects, Documentation, PPT & Journal Papers, Website Development, UI/UX Design, App Development, and Drone Softwares & Components.
 
 ## 🚀 Getting Started
 

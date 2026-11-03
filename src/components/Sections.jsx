@@ -560,13 +560,13 @@ export function About(){
       <div className="container-x grid items-center gap-14 lg:grid-cols-2">
         <Reveal>
           <div className="inline-flex items-center gap-2 border border-cy/30 bg-cy/10 px-3 py-1 rounded-full text-xs font-medium text-cy mb-4">
-            <span>About WolfNex Technologies</span>
+            <span>About WolfNex Technology</span>
           </div>
           <h2 className="font-display text-3xl md:text-5xl font-bold leading-tight text-snow">
             Practical Engineering, Creative Design & Mentorship.
           </h2>
           <p className="mt-6 text-base text-mute leading-relaxed">
-            WolfNex Technologies is an independent technology startup and freelance studio. We focus on delivering top-tier practical solutions across five core areas:
+            WolfNex Technology is an independent technology startup and freelance studio. We focus on delivering top-tier practical solutions across five core areas:
           </p>
           <ul className="mt-4 space-y-2 text-sm text-snow/90">
             <li className="flex items-center gap-2"><Check size={16} className="text-cy"/> <strong>Academic Projects:</strong> Practical engineering guidance, code coaching & documentation.</li>
@@ -586,7 +586,7 @@ export function About(){
         <Reveal className="grid-bg border border-border rounded-xl aspect-square max-w-md w-full mx-auto flex flex-col items-center justify-center bg-ink p-8 text-center shadow-xl relative overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-t from-brand/10 to-transparent pointer-events-none"/>
           <Logo s={160}/>
-          <p className="font-display text-xl font-bold mt-6 text-snow">WolfNex <span className="text-cy">Technologies</span></p>
+          <p className="font-display text-xl font-bold mt-6 text-snow">WolfNex <span className="text-cy">Technology</span></p>
           <p className="text-xs text-mute mt-1">Multi-Disciplinary Freelance Studio</p>
           <div className="mt-4 inline-flex items-center gap-2 border border-cy/30 bg-cy/10 px-3 py-1 rounded-full text-[11px] text-cy font-mono">
             <span>● Open for Projects & Guidance</span>

@@ -357,7 +357,7 @@ export function HomeDifference(){
           <div className="bg-ink border border-cy/50 rounded-2xl p-7 shadow-md relative overflow-hidden ring-1 ring-cy/20">
             <div className="flex items-center gap-2 text-cy font-semibold text-sm mb-4">
               <CheckCircle2 size={18} />
-              <span>WolfNex Technologies</span>
+              <span>WolfNex Technology</span>
             </div>
             <ul className="space-y-3.5 text-xs text-snow/90">
               <li className="flex items-start gap-2.5">

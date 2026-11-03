@@ -1,6 +1,6 @@
 // Fill these in with real details. Empty values are shown as "not configured" and never faked.
 export const CONFIG = {
-  email: "",            // e.g. hello@yourdomain.com
+  email: "wolfnextech@gmail.com",
   phone: "+91 90253 19434",
   location: "Tamil Nadu, India",
   linkedin: "",

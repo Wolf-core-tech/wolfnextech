@@ -37,7 +37,7 @@ export const Head = ({title, text, center = false, className = ""}) => (
 
 export const Seo = ({title, desc}) => {
   useEffect(() => {
-    const fullTitle = title.includes("WolfNex") ? title : `${title} | WolfNex Technologies`;
+    const fullTitle = title.includes("WolfNex") ? title : `${title} | WolfNex Technology`;
     document.title = fullTitle;
 
     const setMeta = (attr, key, val) => {

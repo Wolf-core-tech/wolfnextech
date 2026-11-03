@@ -33,7 +33,7 @@ export default function Nav(){
       <nav aria-label="Main" className="container-x flex h-24 items-center justify-between">
         <Link 
           to="/" 
-          aria-label="WolfNex Technologies Home" 
+          aria-label="WolfNex Technology Home" 
           onClick={() => window.scrollTo({top: 0, behavior: "smooth"})}
           className="flex items-center hover:opacity-90 transition-opacity py-1"
         >

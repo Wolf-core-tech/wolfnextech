@@ -24,13 +24,13 @@ export default function Footer(){
           <div className="flex flex-col sm:flex-row items-center gap-3.5 text-center sm:text-left">
             <Link 
               to="/" 
-              aria-label="WolfNex Technologies Home" 
+              aria-label="WolfNex Technology Home" 
               onClick={scrollToTop}
               className="flex items-center gap-3 group cursor-pointer"
             >
               <Logo s={40} className="h-10 w-auto group-hover:scale-105 transition-transform duration-200 drop-shadow-sm"/>
               <span className="font-display text-lg font-bold text-snow tracking-tight group-hover:text-cy transition-colors">
-                WolfNex <span className="text-cy">Technologies</span>
+                WolfNex <span className="text-cy">Technology</span>
               </span>
             </Link>
             <span className="hidden sm:inline-block text-border">|</span>
@@ -69,7 +69,7 @@ export default function Footer(){
 
         {/* Bottom Bar: Copyright & Socials */}
         <div className="mt-6 pt-5 border-t border-border flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-mute">
-          <p>© {new Date().getFullYear()} WolfNex Technologies. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} WolfNex Technology. All rights reserved.</p>
 
           <div className="flex items-center gap-2">
             {soc.map(([n, I, u]) => (

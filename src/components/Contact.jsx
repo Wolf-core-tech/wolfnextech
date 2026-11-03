@@ -102,7 +102,7 @@ export default function Contact(){
 
   // Pre-generate WhatsApp message
   const waText = encodeURIComponent(
-    `Hello WolfNex Technologies!\n\nI want to discuss a project:\n• Service: ${selectedService}\n• Target Budget: ${selectedBudget}\n• Timeline: ${selectedTimeline}\n• Name: ${name || "[Client / Student]"}\n• Details: ${message || "Let's discuss requirements"}`
+    `Hello WolfNex Technology!\n\nI want to discuss a project:\n• Service: ${selectedService}\n• Target Budget: ${selectedBudget}\n• Timeline: ${selectedTimeline}\n• Name: ${name || "[Client / Student]"}\n• Details: ${message || "Let's discuss requirements"}`
   );
 
   const wa = CONFIG.whatsapp 
@@ -111,7 +111,7 @@ export default function Contact(){
 
   const info = [
     [Phone, CONFIG.phone || "+91 90253 19434", "Direct Call / WhatsApp", CONFIG.phone ? `tel:${CONFIG.phone.replace(/\s+/g, "")}` : "tel:+919025319434"],
-    [Mail, CONFIG.email || "hello@wolfnex.dev", "Email Address", CONFIG.email ? `mailto:${CONFIG.email}` : "mailto:hello@wolfnex.dev"],
+    [Mail, CONFIG.email || "wolfnextech@gmail.com", "Email Address", CONFIG.email ? `mailto:${CONFIG.email}` : "mailto:wolfnextech@gmail.com"],
     [MapPin, CONFIG.location || "Remote Studio (India / Global)", "Location"]
   ];
 
@@ -363,7 +363,7 @@ export default function Contact(){
 
               <div className="mt-5 pt-4 border-t border-border">
                 <a
-                  href={`https://wa.me/${(CONFIG.whatsapp || "919025319434").replace(/\D/g, "")}?text=Hello%20WolfNex%20Technologies%2C%20I%20have%20a%20project%20inquiry.`}
+                  href={`https://wa.me/${(CONFIG.whatsapp || "919025319434").replace(/\D/g, "")}?text=Hello%20WolfNex%20Technology%2C%20I%20have%20a%20project%20inquiry.`}
                   target="_blank"
                   rel="noreferrer"
                   className="w-full py-2.5 px-3 rounded-lg bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-600 dark:text-emerald-400 border border-emerald-500/30 font-medium text-xs flex items-center justify-center gap-2 transition"

@@ -1,4 +1,4 @@
-# WolfNex Technologies robots.txt
+# WolfNex Technology robots.txt
 User-agent: *
 Allow: /
 

@@ -32,7 +32,7 @@ export const Home = () => (
   <P 
     top={false} 
     t="Technology & Engineering Studio" 
-    d="WolfNex Technologies: Turning engineering ideas into working technology across academic projects, web, mobile, UI/UX, and drone hardware."
+    d="WolfNex Technology: Turning engineering ideas into working technology across academic projects, web, mobile, UI/UX, and drone hardware."
   >
     <HomeHero/>
     <HomePillars/>
@@ -73,7 +73,7 @@ export const HowWeWorkP = () => (
 export const AboutP = () => (
   <P 
     t="About Us" 
-    d="Learn about WolfNex Technologies, an independent tech studio combining practical engineering, creative design, and technical mentoring."
+    d="Learn about WolfNex Technology, an independent tech studio combining practical engineering, creative design, and technical mentoring."
   >
     <About/>
     <Why/>
@@ -86,7 +86,7 @@ export const AboutP = () => (
 export const ContactP = () => (
   <P 
     t="Contact Us" 
-    d="Get in touch with WolfNex Technologies for academic project guidance, website development, mobile apps, or drone engineering."
+    d="Get in touch with WolfNex Technology for academic project guidance, website development, mobile apps, or drone engineering."
   >
     <Contact/>
     <FAQSection/>
@@ -97,11 +97,11 @@ export const ProjectsP = ServicesP;
 export const DronesP = ServicesP;
 
 const Legal = ({t, children}) => (
-  <P t={t} d={`${t} for WolfNex Technologies.`}>
+  <P t={t} d={`${t} for WolfNex Technology.`}>
     <section className="container-x max-w-3xl py-20 space-y-5 text-mute">
       <h1 className="font-display text-4xl text-snow font-bold">{t}</h1>
       <p className="border border-brand/30 bg-brand/10 p-4 text-xs text-brand font-mono rounded-lg">
-        Standard Terms & Privacy for WolfNex Technologies.
+        Standard Terms & Privacy for WolfNex Technology.
       </p>
       {children}
       <div className="pt-4">
@@ -114,7 +114,7 @@ const Legal = ({t, children}) => (
 export const Privacy = () => (
   <Legal t="Privacy Policy">
     <p>
-      WolfNex Technologies respects your privacy. We collect only information provided through the contact form (name, email, phone, project brief) solely to respond to your inquiry and deliver your project.
+      WolfNex Technology respects your privacy. We collect only information provided through the contact form (name, email, phone, project brief) solely to respond to your inquiry and deliver your project.
     </p>
     <p>
       We do not share or sell your data to any third parties. All project discussions and academic requirements are kept confidential.
